@@ -34,7 +34,7 @@ content {
     align-items: center;
     height: 100vh;
     font-family: 'Permanent Marker', sans-serif;
-    font-size: 36px;
+    font-size: 72px;
     letter-spacing: -1px;
     color: var(--color-yellow-light);
 }
