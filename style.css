@@ -50,6 +50,7 @@ h1 {
     letter-spacing: -1px;
     color: var(--color-white-light);
     text-shadow: -4px 0px 1px var(--color-red-light), 2px 0px 3px var(--color-red-light);
+    user-select: none;
 }
 
 ul {
@@ -63,4 +64,9 @@ li a {
     color: var(--color-red-light);
     text-shadow: 1px 0px 1.5px var(--color-white-light);
     text-decoration: none;
+}
+
+li a:hover {
+    color: var(--color-white-light);
+    text-shadow: -8px 0px 1px var(--color-red-light), 6px 0px 3px var(--color-red-light);
 }
