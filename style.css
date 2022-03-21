@@ -58,7 +58,7 @@ ul {
     text-align: center;
 }
 
-li a {
+li, li a {
     font-size: 36px;
     letter-spacing: -1px;
     color: var(--color-red-light);
