@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
 
 :root {
     --color-red-light: rgb(231, 77, 60); /* #E74D3C */
@@ -33,10 +33,11 @@ content {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: 'Permanent Marker', sans-serif;
+    font-family: 'Monda', sans-serif;
     font-size: 72px;
     letter-spacing: -1px;
-    color: var(--color-yellow-light);
+    color: var(--color-white-light);
+    text-shadow: -4px 0px 1px var(--color-red-light), 2px 0px 3px var(--color-red-light);
 }
 
 content:nth-child(odd) {
