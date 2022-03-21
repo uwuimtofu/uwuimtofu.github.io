@@ -26,6 +26,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Monda', sans-serif;
 }
 
 content {
@@ -45,7 +46,6 @@ content:nth-child(even) {
 }
 
 h1 {
-    font-family: 'Monda', sans-serif;
     font-size: 72px;
     letter-spacing: -1px;
     color: var(--color-white-light);
@@ -57,10 +57,10 @@ ul {
     text-align: center;
 }
 
-li {
-    font-family: 'Monda', sans-serif;
+li a {
     font-size: 36px;
     letter-spacing: -1px;
     color: var(--color-red-light);
     text-shadow: 1px 0px 1.5px var(--color-white-light);
+    text-decoration: none;
 }
