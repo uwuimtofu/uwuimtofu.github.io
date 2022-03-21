@@ -30,14 +30,10 @@
 
 content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: 'Monda', sans-serif;
-    font-size: 72px;
-    letter-spacing: -1px;
-    color: var(--color-white-light);
-    text-shadow: -4px 0px 1px var(--color-red-light), 2px 0px 3px var(--color-red-light);
 }
 
 content:nth-child(odd) {
@@ -46,4 +42,25 @@ content:nth-child(odd) {
 
 content:nth-child(even) {
     background-color: var(--color-black-light);
+}
+
+h1 {
+    font-family: 'Monda', sans-serif;
+    font-size: 72px;
+    letter-spacing: -1px;
+    color: var(--color-white-light);
+    text-shadow: -4px 0px 1px var(--color-red-light), 2px 0px 3px var(--color-red-light);
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    font-family: 'Monda', sans-serif;
+    font-size: 36px;
+    letter-spacing: -1px;
+    color: var(--color-red-light);
+    text-shadow: 1px 0px 1.5px var(--color-white-light);
 }
